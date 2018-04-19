@@ -10,7 +10,7 @@ Moving forward I plan to build a proper library for rendering apps within a web 
 Download the git:
 
 ```
-$git clone https://github.com/androiddrew/py_vue_ssr_poc.git
+$ git clone https://github.com/androiddrew/py_vue_ssr_poc.git
 $ cd ./py_vue_ssr_poc
 ```
 
@@ -24,14 +24,19 @@ $ source env/bin/activate
 install your requirements:
 
 ```
-$(env) pip install -r requirements`
+$(env) pip install -r requirements.txt
 $(env) npm install
 ```
 
 Execute the script:
 
-`$(env) python py_vue_ssr.py`
+```
+$(env) python py_vue_ssr.py
+```
+
 
 You will see that our component defined in `ssr_example.js` has been rendered to an HTML string and printed to the console:
 
-`$(env)<div data-server-rendered="true">Vue SSR in Python</div>`
+```
+<div data-server-rendered="true">Vue SSR in Python</div>`
+```
