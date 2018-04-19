@@ -1,10 +1,8 @@
 from py_mini_racer import py_mini_racer
 
 def read_in_file(path):
-
 	with open(path, mode='r') as f:
 		return f.read()
-
 
 
 def main():
