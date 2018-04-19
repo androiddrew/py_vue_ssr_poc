@@ -1,0 +1,15 @@
+{
+  "name": "py_vue_ssr",
+  "version": "1.0.0",
+  "description": "Vue SSR in Python",
+  "main": "ssr_example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-server-renderer": "^2.5.16"
+  }
+}
